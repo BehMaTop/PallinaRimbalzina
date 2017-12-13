@@ -6,12 +6,12 @@ var s = 40;
 var t = 450;
 
 function setup(){
-createCanvas(500,500);  
+createCanvas(1280,500);  
 
 }
 
 function draw(){
-  background(255);
+  background(249,139,239);
   
   
  
