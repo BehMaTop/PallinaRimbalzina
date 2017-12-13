@@ -4,8 +4,13 @@ var acceleration = 0;
 var gravity = 0.1;
 var s = 40;
 var t = 450;
+var myfont;
 
-function setup(){
+function preload() {
+    myfont = loadFont('Pacifico-Regular.ttf');
+}
+
+function setup () {
 createCanvas(1280,500);  
 
 }
@@ -13,7 +18,8 @@ createCanvas(1280,500);
 function draw(){
   background(249,139,239);
   fill(255);
-  textSize(30);
+  textFont(myfont);
+  textSize(50);
   textAlign(CENTER);
   text("Pallina Rimbalzina",640,100);
   
