@@ -1,4 +1,4 @@
-var x =250;
+var x =640;
 var y = 200;
 var acceleration = 0;
 var gravity = 0.1;
@@ -35,7 +35,7 @@ function draw(){
  
 //BALL
 function ball(){
-    fill(64,64,64);
+    fill(269,159,259);
    ellipse(x,y,40,s);
    
  
