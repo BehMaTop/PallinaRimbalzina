@@ -17,11 +17,14 @@ createCanvas(1280,500);
 
 function draw(){
   background(249,139,239);
-  fill(255);
   textFont(myfont);
   textSize(50);
   textAlign(CENTER);
+  fill(50);
+  text("Pallina Rimbalzina",645,105); 
+  fill(255);
   text("Pallina Rimbalzina",640,100);
+ 
   
  
  ball();
@@ -44,8 +47,10 @@ function draw(){
  
 //BALL
 function ball(){
-    fill(269,159,259);
+   fill(269,159,259);
    ellipse(x,y,40,s);
+ 
+    
    
  
 }
