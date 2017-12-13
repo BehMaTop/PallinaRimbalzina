@@ -12,7 +12,10 @@ createCanvas(1280,500);
 
 function draw(){
   background(249,139,239);
-  
+  fill(255);
+  textSize(30);
+  textAlign(CENTER);
+  text("Pallina Rimbalzina",640,100);
   
  
  ball();
