@@ -35,7 +35,7 @@ function draw(){
   fill(255);
   text("Pallina Rimbalzina",640,100);
  
- if(start == true){ 
+ if(start === true){ 
 
    ball();
    calcoli();
@@ -78,7 +78,7 @@ function pulsante(){
  noStroke();
  
  var dp= dist(xp,yp,mouseX,mouseY);
- if(dp<=20&&mouseIsPressed&&settings==true){
+ if(dp<=20&&mouseIsPressed&&settings===true){
   y = 150;
   start = true;
   settings = false; 
@@ -98,7 +98,7 @@ function pulsante2(){
  noStroke();
  
  var dp2= dist(xp2,yp2,mouseX,mouseY);
- if(dp2<=20&&mouseIsPressed&&settings==true){
+ if(dp2<=20&&mouseIsPressed&&settings===true){
   y=200;
   start = true;
   settings = false; 
@@ -119,7 +119,7 @@ function pulsante3(){
  noStroke();
  
  var dp3= dist(xp3,yp3,mouseX,mouseY);
- if(dp3<=20&&mouseIsPressed&&settings==true){
+ if(dp3<=20&&mouseIsPressed&&settings===true){
   y=250;
   variable = -.88
   gravity = .2
